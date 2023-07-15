@@ -1,0 +1,85 @@
+@media screen and (max-width:1200px) {
+    header ,main{
+        margin-top:80px ;
+        margin-left: 120px;
+        margin-right: 160px;
+        margin-bottom: 80px;
+    }
+}
+@media screen and (max-width:992px) {
+    header ,main{
+        margin-top:50px ;
+        margin-left: 70px;
+        margin-right: 100px;
+        margin-bottom: 50px;
+    }
+    .cereative-dtl{
+        width:clamp(15rem, -2.7778rem + 49.3827vw, 25rem);
+    }
+
+    main > div > span > img{
+        height: clamp(12rem, 0.9231rem + 30.7692vw, 20rem);
+    }
+}
+@media screen and (max-width:768px) {
+    header ,main{
+        margin-top:30px;
+        margin-left: 50px;
+        margin-right: 70px;
+        margin-bottom: 30px;
+    }
+
+    main > div h4{
+        font-size:clamp(1rem, -0.5rem + 4.1667vw, 1.5rem); 
+    }
+
+    main .box-2 , .box-5{
+        margin-top: clamp(2rem, -7rem + 25vw, 5rem);
+    }
+}
+
+
+/* for mobile device */
+
+@media screen and (max-width:576px) {
+    header{
+        margin: 20px auto;
+    }
+    header {
+        flex-direction: column;
+        gap: 2rem;
+        width: clamp(13rem, 4.4286rem + 57.1429vw, 25rem);
+    }
+    .the-creative{
+        font-size: clamp(1.875rem, 1.4286rem + 2.9762vw, 2.5rem);
+    }
+    .cereative-dtl{
+        width: 100%;
+    }
+    
+
+    main{
+        margin: 30px;
+        margin-left:clamp(1.25rem, -0.5357rem + 11.9048vw, 3.75rem);
+        margin-right:clamp(1.25rem, -0.5357rem + 11.9048vw, 3.75rem);
+        grid-template-columns: repeat(2,1fr);
+        gap: 1rem;
+    }
+
+    main > div > span > P{
+        right:clamp(-2.5rem, -2.1429rem + -2.381vw, -3rem); 
+    }
+    main .box-2 , .box-4 , .box-6 {
+        margin-top: 3rem;
+    }
+    main .box-5{
+        margin-top: 0;
+    }
+    main > div > span > img{
+        height:clamp(8rem, 3rem + 33.3333vw, 15rem);
+    }
+}
+
+@media screen and (max-width:380px){
+    
+}

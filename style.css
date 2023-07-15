@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin-top:120px ;
+    margin-left: 180px;
+    margin-right: 200px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #7923; */
+}
+
+
+.the-creative{
+    font-size: 40px;
+    font-weight: bold;
+    /* background-color: rgba(13, 166, 62, 0.533); */
+}
+
+.cereative-dtl{
+    width: 25rem;
+    /* background-color: #585785; */
+    height: auto;
+}
+
+.cereative-dtl > h3{
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.cereative-dtl > p{
+    font-weight: 18px;
+    line-height: 20px;
+}
+
+.hide{
+    display: none;
+}
+
+
+/* main section start */
+
+main{
+    margin-left: 180px;
+    margin-right: 200px;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3,1fr);
+    /* background-color: #794567;  */
+}
+
+main > div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /* position: relative; */
+    /* background: #369; */
+}
+main > div > span > img{
+    height: 22rem;
+}
+
+main > div > span{
+    position: relative;
+}
+main > div > span > P{
+    position: absolute;
+    right: -3rem; 
+    top: 1.5rem;
+    rotate: 90deg;
+}
+
+main > div h4{
+    font-size: 1.5rem;
+}
+
+
+main .box-2 , .box-5{
+    margin-top: 5rem;
+}
+
+footer{
+    margin-top: clamp(2rem, 0.5rem + 10vw, 8rem);
+    margin-bottom: clamp(1rem, 0.5rem + 3.3333vw, 3rem);
+    display: flex;
+    justify-content: center;
+    color: #747373;
+    /* background-color: rgba(46, 87, 212, 0.267); */
+    text-align: center;
+}
+
+footer > small{
+    /* background-color: #36978578; */
+}
+
+
+
+
+
+
